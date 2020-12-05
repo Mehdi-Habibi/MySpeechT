@@ -14,5 +14,5 @@ setup(
   author='Louis Kirsch',
   author_email='speechT@louiskirsch.com',
   description='An open source speech-to-text software written in tensorflow ',
-  install_requires=[str(r.req) for r in parse_requirements("requirements.txt", session=False)]
+  # install_requires=[str(r.req) for r in parse_requirements("requirements.txt", session=False)]
 )
